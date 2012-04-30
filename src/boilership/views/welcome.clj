@@ -14,3 +14,7 @@
 (defpage "/boil/*" {url :*}
          (html
            (extract-article url)))
+
+(defpage "/" []
+         (common/layout
+           [:h1.announce "Boil the seas."]))
