@@ -1,6 +1,6 @@
 # boilership
 
-A website written in noir. 
+A web service wrapper around boilerpipe.
 
 ## Usage
 
@@ -8,10 +8,3 @@ A website written in noir.
 lein deps
 lein run
 ```
-
-## License
-
-Copyright (C) 2011 FIXME
-
-Distributed under the Eclipse Public License, the same as Clojure.
-
