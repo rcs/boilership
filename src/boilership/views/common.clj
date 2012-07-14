@@ -6,7 +6,6 @@
             (html5
               [:head
                [:title "boilership"]
-               (include-css "/css/noir.css")
                (include-css "/css/reset.css")]
               [:body
                [:div#wrapper

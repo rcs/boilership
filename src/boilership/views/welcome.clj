@@ -16,5 +16,6 @@
            (extract-article url)))
 
 (defpage "/" []
-         (common/layout
-           [:h1.announce "Boil the seas."]))
+         (html 
+           (layout
+             [:h1 "Boil the seas."])))
